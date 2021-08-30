@@ -34,4 +34,4 @@ app.set('view engine', 'ejs')
 app.use('/', router)
 
 //Listen to any request coming from the variable port in .env file
-app.listen(process.env.PORT)
+app.listen(process.env.PORT || 3000)
